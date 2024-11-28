@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+  }
+  
+ 
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+   
+  }
+  .msg{
+    color: rgb(46, 68, 3);
+    padding: 5px;
+    text-decoration: underline;
+   
+  }
+  
+  .homes{
+    color: peru;
+    margin: 20px;
+  }
+  .btn {
+    background-color: peru;
+    color: palegoldenrod;
+    padding: 4px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid rgb(62, 86, 11);
+    
+  }
+  .btn1{
+    background-color: peru;
+    color: palegoldenrod ;
+    padding: 2px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid rgb(62, 86, 11);
+  }
+  .btnreset{
+    background-color: peru;
+    color: palegoldenrod ;
+    padding: 2px 16px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid rgb(62, 86, 11);
+  }
+  .searchwrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    }
+  .searching{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(62, 86, 11);
+    width: 380px;
+    margin-right: 10px;
+    
+  }
+  .browsewrapper{
+    margin: 20px;
+  }
+  .browsetitle{
+    color: rgb(46, 68, 3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+   
+    background-color: peru;
+    padding: 16px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width:25vw ;
+    height:60vh ;
+    margin-left: 20px;
+  }
+  .cardmsg{
+    background-color: peru;
+    color:rgb(46, 68, 3) ;
+  }
+  .card-img{
+    height: 40vh;
+    width: 20vw;
+  }
+  
+  .grid {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+  .genrewrap{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+  .genres{
+   padding: 10px;
+   }
+   .category{
+    color: rgb(46, 68, 3);
+    font-size: x-large;
+    text-decoration: underline;
+   }
+   .addbookwrapper{
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+   }
+   
+   .searchingadd{
+            display: flex;
+            border: 1px solid rgb(62, 86, 11);
+            margin: 10px;
+            width: 40vw;
+            height: 5vh;
+   }
+   .btnadd{
+    background-color: peru;
+    color: palegoldenrod;
+    padding: 4px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid rgb(62, 86, 11);
+    margin-left: 17vw;
+   }
+   .bookdetailwrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+   }
+   .book-img{
+    height: 50vh;
+    width: 20vw;
+   }
